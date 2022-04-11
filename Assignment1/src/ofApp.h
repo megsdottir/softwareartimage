@@ -29,4 +29,8 @@ class ofApp : public ofBaseApp{
     ofParameter<float> rectangleWidth;
     
     
+    ofColor palette[4];
+    
+    
+    
 };

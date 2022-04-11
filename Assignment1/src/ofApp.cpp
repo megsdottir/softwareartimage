@@ -13,6 +13,14 @@ void ofApp::setup(){
     gui.add(rectangleWidth.set("rectangle width", 20, 5, 200));
             
     
+    // create palette
+    palette[0] = ofColor(244, 243, 239); //white
+    palette[1] =  ofColor(217, 33, 33); //red
+    palette[2] = ofColor(13,91,225); //blue
+    palette[3] = ofColor(255, 243, 128); //yellow
+    
+    
+    
 
 }
 
@@ -30,25 +38,25 @@ void ofApp::draw(){
 
     
     
-    ofSetColor(217, 33, 33);
+    ofSetColor(palette[1]);
     ofDrawRectangle(600, 90, 300, 300);
     
-    ofSetColor(244, 243, 239);
+    ofSetColor(palette[0]);
     ofDrawRectangle(520, 90, 70, 130);
     
-    ofSetColor(244, 243, 239);
+    ofSetColor(palette[0]);
     ofDrawRectangle(520, 260, 70, 130);
     
-    ofSetColor(13,91,225);
+    ofSetColor(palette[2]);
     ofDrawRectangle(520, 400, 70, 130);
     
-    ofSetColor(244, 243, 239);
+    ofSetColor(palette[0]);
     ofDrawRectangle(600, 400, 250, 130);
     
-    ofSetColor(244, 243, 239);
+    ofSetColor(palette[0]);
     ofDrawRectangle(865, 400, 37, 35);
     
-    ofSetColor(255, 243, 128);
+    ofSetColor(palette[3]);
     ofDrawRectangle(865, 453, 37,75);
     
     
