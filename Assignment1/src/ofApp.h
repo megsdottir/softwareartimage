@@ -31,6 +31,6 @@ class ofApp : public ofBaseApp{
     
     ofColor palette[4];
     
-    
+    ofParameter<int> accentColor; 
     
 };

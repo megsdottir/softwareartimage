@@ -19,7 +19,10 @@ void ofApp::setup(){
     palette[2] = ofColor(13,91,225); //blue
     palette[3] = ofColor(255, 243, 128); //yellow
     
+    //accent color
+    gui.add(accentColor.set("accent color", 1, 0, 3));
     
+
     
 
 }
@@ -35,10 +38,11 @@ void ofApp::draw(){
     //dummy rectangle
    // ofDrawRectangle(500, 300, rectangleWidth, 15);
     
-
+//accent color
     
     
-    ofSetColor(palette[1]);
+    
+    ofSetColor(palette[accentColor]);
     ofDrawRectangle(600, 90, 300, 300);
     
     ofSetColor(palette[0]);
