@@ -7,6 +7,12 @@ void ofApp::setup(){
     
     
     
+    // setup GUI
+    
+    gui.setup();
+    gui.add(rectangleWidth.set("rectangle width", 20, 5, 200));
+            
+    
 
 }
 
@@ -18,6 +24,11 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
+    //dummy rectangle
+   // ofDrawRectangle(500, 300, rectangleWidth, 15);
+    
+
+    
     
     ofSetColor(217, 33, 33);
     ofDrawRectangle(600, 90, 300, 300);
@@ -42,6 +53,7 @@ void ofApp::draw(){
     
     
     
+    gui.draw();
     
     
     
