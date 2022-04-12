@@ -13,6 +13,10 @@ void ofApp::setup(){
     gui.add(rectangleWidth.set("rectangle width", 20, 5, 200));
             
     
+    // setup GUI for height
+    gui.setup();
+    gui.add(rectangleHeight.set("rectangle height", 300, 5, 800));
+    
     // create palette
     palette[0] = ofColor(244, 243, 239); //white
     palette[1] =  ofColor(217, 33, 33); //red
@@ -22,8 +26,11 @@ void ofApp::setup(){
     //accent color
     gui.add(accentColor.set("accent color", 1, 0, 3));
     
+    // second color
+    gui.add(secondColor.set("second color", 2, 0, 3));
 
-    
+    //third color
+    gui.add(thirdColor.set("third color", 3, 0, 3));
 
 }
 
@@ -38,12 +45,13 @@ void ofApp::draw(){
     //dummy rectangle
    // ofDrawRectangle(500, 300, rectangleWidth, 15);
     
-//accent color
     
+  
     
+  
     
     ofSetColor(palette[accentColor]);
-    ofDrawRectangle(600, 90, 300, 300);
+    ofDrawRectangle(600, 90, 300, rectangleHeight);
     
     ofSetColor(palette[0]);
     ofDrawRectangle(520, 90, 70, 130);
@@ -54,13 +62,13 @@ void ofApp::draw(){
     ofSetColor(palette[2]);
     ofDrawRectangle(520, 400, 70, 130);
     
-    ofSetColor(palette[0]);
+    ofSetColor(palette[secondColor]);
     ofDrawRectangle(600, 400, 250, 130);
     
     ofSetColor(palette[0]);
     ofDrawRectangle(865, 400, 37, 35);
     
-    ofSetColor(palette[3]);
+    ofSetColor(palette[thirdColor]);
     ofDrawRectangle(865, 453, 37,75);
     
     

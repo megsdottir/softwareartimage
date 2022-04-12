@@ -28,9 +28,14 @@ class ofApp : public ofBaseApp{
     
     ofParameter<float> rectangleWidth;
     
+    ofParameter<float> rectangleHeight;
     
     ofColor palette[4];
     
-    ofParameter<int> accentColor; 
+    ofParameter<int> accentColor;
+    
+    ofParameter<int> secondColor;
+    
+    ofParameter<int> thirdColor;
     
 };
