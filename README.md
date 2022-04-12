@@ -1,15 +1,26 @@
 # softwareartimage
 
 
-For the first assignment, I started off with an image inspired by Piet Mondrian's 'Composition II in Red, Blue and Yellow'. 
-I was intrigued in the idea of recreating a well known work of art in digital form to see how interacting with the work of art and changing it would also impact the way we view the work. 
+When I look at paintings by Mondrian, I imagine myself as a kid sitting in a McDonald's, eating french fries with my grandmother. 
+Perhaps it is the use of simple shapes and primary colors, but his seemingly 'simplistic' works of art invoke feelings of nostalgia. 
 
-Mondrian's work is very straightforward, using mainly line, sqaures, and rectangles with primary colors. However, when these elements can be changed, each change creates a new meaning, depending on how the person interacts with it. 
+For the first assignment, I started off with an image inspired by Piet Mondrian's 'Composition II in Red, Blue and Yellow'. 
+I was intrigued by the idea of recreating a well-known work of art in digital form to see how interacting with the work of art and changing it would also impact the way we view the work. 
+
+Mondrian's work is very straightforward, using mainly lines, sqaures, and rectangles with primary colors. However, when these elements can be changed, each change creates a new meaning, depending on how the person interacts with it. 
 
 First, I started off by creating the shapes and adding the colors. This was a rather simple process, but took a bit of calculating in order to esnure that the shapes were lined up with one another in exactly the same way as Mondrian's painting. 
 
 Then, I added gui's to control the height of the main square in the image, and added three more gui's to control the colors. 
 Instead of introducing new colors to the image, I chose the same four colors that were used in the origianl artwork. Instead, the user can change the location of the color and create new images. 
+
+Upon playing around with the gui's, I noticed that different colors invoked different feelings. For example when I made the image all black, blue and white, suddenly the image became more solemn and desolate. 
+
+Furthermore, the fact that changing the colors changed the feeling of the image so much shows that Mondrian did not randomly choose the colors, he carefully chose each shape and color to convey a specific feeling for his audience. 
+
+Though my work is quite simple and does not involve complex coding (due to my beginner coding skills), I still feel that I was able to learn a lot through this assignment about the significance of shapes and colors. 
+
+
 
 This is what the original artwork looks like:
 
